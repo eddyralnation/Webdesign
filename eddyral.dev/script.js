@@ -4,7 +4,7 @@ function togglemenu()
 
   if(menuList.style.maxWidth=="0px" )
   {
-    menuList.style.maxWidth="500px";
+    menuList.style.maxWidth="250px";
     menuList.style.opacity="100%";
     actionIcon.classList.add("action");
   }
