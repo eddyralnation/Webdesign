@@ -11,31 +11,47 @@
 	<nav>
 
 		<ul id="menuList">
-			<a href="#">HOME</a>
+			<a href="#home">HOME</a>
 			<a href="#">ABOUT</a>
 			<a href="#">PORTFOLIO(S)</a>
 			<a href="#">SOCIALS</a>
 		</ul>
 	</nav>
 
-	<video autoplay muted loop class="content">
+	<video autoplay muted loop class="content" ><!---video playing in the bg--->
 		<source src="logo.webm" type="video/webm">
 	</video>
 
 	<div class="heading">
-		<h1>eddyral</h1>
+		<h1 id="home">eddyral</h1>
 		<p>Group of developers crafting visual wonders together</p>
 	</div>
 
+	<div class="top-bar"> <!---sentence above eddyral--->
+		<h2>Learning to create and creating to learn w/</h2>
+	</div>
 
+	<ion-icon name="logo-discord" class="dc-logo"></ion-icon><!---discord logo above visit us--->
+
+	<div class="discord-link"><!---Visit us btn--->
+		V1s1t us!
+	</div>
+
+	<div class="scroll-down"><!---scroll down indication--->
+		<ion-icon name="code-download-outline"></ion-icon>
+	</div>
+
+
+	<!---to be ignored--->
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<!---to be ignored--->
 
 
 	<!---ION-ICONS--->
 	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-	<script src="script.js"></script>
+	<script src="script.js"></script><!---external js source--->
 
 
 </body>
